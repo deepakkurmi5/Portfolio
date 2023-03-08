@@ -1,0 +1,40 @@
+/* =======================================
+   Header Section Start 
+======================================= */
+
+header {
+  padding: 0 5rem;
+  height: 6rem;
+  background-color: var(--body-primary-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  height: 4.5rem;
+}
+
+header .navbar .navbar-lists {
+  display: flex;
+  gap: 3.5rem;
+}
+
+header .navbar .navbar-lists .navbar-link:link,
+header .navbar .navbar-lists .navbar-link:visited {
+  display: inline-block;
+  color: var(--text-primary);
+  font-size: 1.45rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+}
+
+header .navbar .navbar-lists .navbar-link:hover {
+  color: var(--hepler);
+}

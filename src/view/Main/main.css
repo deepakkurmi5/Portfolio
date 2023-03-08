@@ -1,0 +1,46 @@
+/* =================================
+ Hero Section Css
+==================================== */
+
+.section-hero {
+  background-color: var(--body-primary-bg);
+}
+
+.section-hero-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-top-data {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: var(--hepler);
+  font-weight: 500;
+}
+
+.hero-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.hero-para {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  max-width: 40rem;
+}
+
+.section-hero-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-hero-image .hero-img {
+  max-width: 70%;
+}
+
+/* =================================
+ Bio Section Css
+==================================== */
