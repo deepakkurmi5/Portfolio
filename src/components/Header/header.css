@@ -3,8 +3,8 @@
 ======================================= */
 
 header {
-  padding: 0 5rem;
-  height: 6rem;
+  padding: 0 10rem;
+  height: 8rem;
   background-color: var(--body-primary-bg);
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@ header {
 }
 
 header .logo {
-  height: 4.5rem;
+  height: 5rem;
 }
 
 header .navbar .navbar-lists {
@@ -24,7 +24,7 @@ header .navbar .navbar-lists .navbar-link:link,
 header .navbar .navbar-lists .navbar-link:visited {
   display: inline-block;
   color: var(--text-primary);
-  font-size: 1.45rem;
+  font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;

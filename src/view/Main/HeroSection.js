@@ -11,18 +11,19 @@ const HeroSection = () => {
             <p className="hero-top-data">this is me</p>
             <h1 className="hero-heading">Deepak Tech</h1>
             <p className="hero-para">
-              I'am deepak kurmi. A Full stake Developer and freelancer. I have
-              1.7 years Experiance.
+              I'am Deepak kurmi. A Full Stake Developer and Freelancer. I have
+              1.7 Years Experiance.
             </p>
-            <Button
-              className="PrimaryBtn"
-              padding="1.6rem 3.2rem"
-              weight="500"
-              size="1.5rem"
-              width="15rem"
-            >
-              Hire me
-            </Button>
+            <div className="hero-btn">
+              <Button
+                className="PrimaryBtn"
+                padding="1.6rem 3.2rem"
+                weight="500"
+                size="1.5rem"
+              >
+                Hire me
+              </Button>
+            </div>
           </div>
 
           {/* hero section right side */}

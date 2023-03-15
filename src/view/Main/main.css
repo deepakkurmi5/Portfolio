@@ -44,3 +44,129 @@
 /* =================================
  Bio Section Css
 ==================================== */
+
+.bio-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-image img {
+  width: 80%;
+  box-shadow: -1.5rem -1.5rem 0 0 var(--hepler);
+  display: inline-block;
+}
+
+.common-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.common-heading::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: var(--hepler);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.common-heading::after {
+  content: "";
+  position: absolute;
+  top: 132%;
+  left: 1.2rem;
+  min-width: 20rem;
+  height: 3px;
+  background-color: var(--hepler);
+}
+
+.bio-stats {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  gap: 1rem;
+}
+
+.bio-stats h3 {
+  margin-bottom: 1rem;
+}
+
+.bio-progress-bar {
+  position: relative;
+  width: 90%;
+  height: 0.5rem;
+  background: var(--text-para-tint);
+  box-shadow: var(--box-shadow-main);
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.bio-progress-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  background: var(--body-secondary-support-bg);
+  height: inherit;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.bio-progress-2::before {
+  width: 90%;
+}
+
+.bio-progress-bar span {
+  position: absolute;
+  top: 1.5rem;
+  width: 4rem;
+  height: 2.5rem;
+  font-weight: 600;
+  background: var(--hepler);
+  color: var(--body-main-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+.bio-progress-bar span::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0.8rem solid var(--hepler);
+  border-color: transparent;
+  border-bottom-color: var(--hepler);
+  top: -1.6rem;
+}
+
+.bio-progress-bar span {
+  left: 76%;
+}
+
+.bio-progress-2 span {
+  left: 86%;
+}
+
+.bio-data-btn {
+  margin-top: 5rem;
+}
