@@ -15,5 +15,5 @@
         }
     },
     "exclude": ["node_modules", "build"],
-    "include": ["**/*.js", "src"]
+    "include": ["**/*.js","**/*.jsx","src"]
 }

@@ -33,6 +33,12 @@ export default function BioSection() {
                 <span>90%</span>
               </div>
             </div>
+            <div className="bio-stats">
+              <h3>Javascript</h3>
+              <div className="bio-progress-bar bio-progress-3">
+                <span>60%</span>
+              </div>
+            </div>
           </div>
           <div className="bio-data-btn">
             <a href="https://" target="_blank" rel="noopener noreferrer">
