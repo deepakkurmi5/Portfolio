@@ -1,6 +1,6 @@
 {   
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "esnext",
         "target": "es6",
         "moduleResolution": "node",
         "resolveJsonModule": true,
@@ -15,5 +15,5 @@
         }
     },
     "exclude": ["node_modules", "build"],
-    "include": ["**/*.js","**/*.jsx","src"]
+    "include": ["**/*.js","src"]
 }

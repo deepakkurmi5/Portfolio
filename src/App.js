@@ -1,12 +1,12 @@
 import React from "react";
 import "styles/App.css";
 import { Route, Routes } from "react-router-dom";
-import Main from "view/Main";
+import MainPage from "view/MainPage";
 
 export default function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<Main />} />
+      <Route exact path="/" element={<MainPage />} />
     </Routes>
   );
 }

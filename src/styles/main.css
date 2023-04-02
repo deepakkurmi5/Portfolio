@@ -241,3 +241,129 @@
 .p-img-hidden {
   display: none;
 }
+
+/* =================================
+ Work counter Section Css
+==================================== */
+
+.section-work-counter {
+  background: var(--body-secondary-support-bg);
+  text-align: center;
+  color: var(--text-secondary);
+  transition: all 0.7 linear;
+  -webkit-transition: all 0.7 linear;
+  -moz-transition: all 0.7 linear;
+  -ms-transition: all 0.7 linear;
+  -o-transition: all 0.7 linear;
+}
+
+.counter-numbers {
+  font-size: 3rem;
+}
+
+.section-work-counter p {
+  color: var(--text-secondary);
+  text-transform: capitalize;
+}
+
+/* =================================
+ Services Section Css
+==================================== */
+
+.section-services .grid {
+  margin-top: 8rem;
+  row-gap: 7rem;
+}
+
+.service-box {
+  text-align: center;
+  box-shadow: var(--box-shadow-main);
+  border-radius: 10px;
+  padding: 3rem 3.4rem;
+  transition: all 0.2s linear;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.service-box:hover,
+.service-box:active {
+  transform: translateY(-40px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+}
+
+.service-icon {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgb(144 172 209 / 20%);
+  display: inline-block;
+  border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  padding: 1.4rem 1.8rem;
+  position: relative;
+  color: var(--text-heading);
+  animation: water-wave 3s linear infinite;
+  -webkit-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  -moz-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  -ms-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  -o-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+}
+
+.service-icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  height: 90%;
+  width: 90%;
+  background-color: transparent;
+  border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  border: 1px solid var(--text-heading);
+  animation: water-wave 3s linear infinite;
+}
+
+@keyframes water-wave {
+  0% {
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -webkit-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -moz-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -ms-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -o-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  }
+  50% {
+    border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+    -webkit-border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+    -moz-border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+    -ms-border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+    -o-border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+  }
+  100% {
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -webkit-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -moz-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -ms-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+    -o-border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  }
+}
+
+.service-box h3 {
+  text-transform: capitalize;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.service-box p {
+  font-size: 1.7rem;
+}

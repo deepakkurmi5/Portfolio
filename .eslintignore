@@ -1,0 +1,10 @@
+# Ignore build artifacts
+build/
+dist/
+coverage/
+
+# Ignore third-party code
+node_modules/
+
+# Ignore generated files
+src/generated/

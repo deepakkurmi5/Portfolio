@@ -1,5 +1,5 @@
-import React from "react";
-import { Button } from "layout";
+import React from 'react';
+import { Button } from 'layout';
 
 const HeroSection = () => {
   return (
@@ -11,7 +11,7 @@ const HeroSection = () => {
             <p className="hero-top-data">this is me</p>
             <h1 className="hero-heading">Deepak Tech</h1>
             <p className="hero-para">
-              I'am Deepak kurmi. A Full Stake Developer and Freelancer. I have
+              I am Deepak kurmi. A Full Stake Developer and Freelancer. I have
               1.7 Years Experiance.
             </p>
             <div className="hero-btn">
